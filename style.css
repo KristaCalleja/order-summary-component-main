@@ -68,7 +68,7 @@ div:nth-of-type(2n):not(.attribution){
     border-radius: 11px;
     max-height: 80px;
 }
-h3:only-of-type{
+h2:only-of-type{
     color: var(--dark-blue);
     font-size: .8rem;
 }
@@ -88,6 +88,7 @@ p{
     display: -ms-flexbox;
     display: flex;
     gap: 1em;
+    width: 70%;
 }
 div:nth-of-type(2n):not(.attribution) img{
     height: 45px;
@@ -113,6 +114,8 @@ button{
     -webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.48); 
     box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.48);
     background: var(--bright-blue);
+    width: 80%;
+    padding: 1em 0;
 }
 .primary-btn:hover{
     cursor: pointer;

@@ -45,3 +45,4 @@ I used this project to recap over some foundational aspects of CSS since I had c
 ## Acknowledgments
 
 Thanks to [Antonio Novak](https://www.frontendmentor.io/profile/Nova988) for the opacity tip for the primary-button hover status. 
+Thanks to [kens-visuals](https://www.frontendmentor.io/profile/kens-visuals) for the useful design and accessibility markup tips!
