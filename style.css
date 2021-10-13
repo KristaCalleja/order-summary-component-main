@@ -7,10 +7,13 @@
     --dark-blue: hsl(223, 47%, 23%);
     font-size: 16px;
 }
-*{
+*, 
+*::before,
+*::after{
     margin: 0;
     padding: 0;
     font-family: 'Red Hat Display', sans-serif;
+    box-sizing: inherit;
 }
 body{
     -webkit-box-sizing: border-box;
@@ -141,6 +144,10 @@ a{
 }
 a:hover{
     text-decoration: none;
+}
+:focus{
+    outline: 1px var(--desaturated-blue) solid;
+    outline-offset: 5px;
 }
 @media (min-width: 900px){
     body{
